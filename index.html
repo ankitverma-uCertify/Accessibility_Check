@@ -4,48 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *
-        {
-            text-transform: capitalize;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        ul
-        {
-            display: flex;
-        }
-        ul li{
-            padding-right: 10px;
-            list-style: none;
-        }
-    </style>
+    <title>Accessibility Assignment</title>
 </head>
-<body>
-    <h1>normal accessibility test</h1>
-    <div>
-        <ul>
-            <li><a href="" accesskey="t">tutorial</a></li>
-            <li><a href="" accesskey="r">referance</a></li>
-            <li><a href="" accesskey="e">exercise</a></li>
-            <li><a href="" accesskey="v">video</a></li>
-            <li><a href="" accesskey="n">new</a></li>
-            <li><a href="" accesskey="m">menu</a></li>
-        </ul>
-    </div>
-    <a href="" accesskey="l" >login</a>
-    <br>
 
+    <body>
+        <h1 accesskey="Normal Accessibility Test">Normal Accessibility Test</h1>
+        
+        <div>
+        <a accesskey="t" href="javascript:void(0)" tabindex="1">Tutorials</a>
+        <a accesskey="r" href="javascript:void(0)" tabindex="2">References</a>
+        <a accesskey="r" href="javascript:void(0)" tabindex="3">Excercises</a>
+        <a accesskey="v" href="javascript:void(0)" tabindex="4">Videos</a>
+        <a accesskey="n" href="javascript:void(0)" tabindex="5">New</a>
+        <a accesskey="m" href="javascript:void(0)" tabindex="6">Menu</a>
+    </div>
 
-    <div>
-        <a href="">paid course</a>
-        <a href="">NEW</a>
+        <a accesskey="l" href="javascript:void(0)" tabindex="7">Log in</a>
+        
+        <div>
+        <a accesskey="Paid Courses" href="https://courses.w3schools.com" tabindex="8" a>Paid Courses</a>
+        <a accesskey="New" href="https://www.w3schools.com/spaces" tabindex="9">New</a>
     </div>
-    <br>
-    <div>
-        <button accesskey="o" >ok</button>
-        <button accesskey="c" >cancel</button>
-    </div>
-</body>
+
+        <button accesskey="o"  tabindex="10"><u>O</u>k</button>
+        <button accesskey="c"  tabindex="11"><u>C</u>ancel</button>
+    </body>
 </html>
-
